@@ -521,6 +521,10 @@ header .container {
   margin-bottom: 16px;
 }
 
+.container-socials {
+  margin-right: 80px;
+}
+
 .footer .body-medium {
   color: var(--white);
   margin-bottom: 16px;
@@ -565,6 +569,76 @@ header .container {
   background-color: var(--green);
 }
 
+/* Subscribe Section */
+
+.subscribe-section {
+  width: 100%;
+}
+
+.subscribe-section input::placeholder {
+  color: var(--white);
+}
+
+.subscribe-section input:hover,
+.subscribe-section input:focus {
+}
+
+.subscribe-form-title {
+}
+
+.subscribe-section-interact {
+  
+}
+.subscribe-form {
+    display: flex;
+
+    /* justify-content: space-between; */
+  
+}
+.subscribe-email {
+  width: 264px;
+  height: 40px;
+  color: var(--white);
+  background-color: var(--navyblue);
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 8px 0 8px 16px;
+  margin-right: auto;
+}
+
+.subscribe-email:hover,
+.subscribe-email:focus {
+  outline: none;
+}
+
+.subscribe-button {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 165px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--transition-settings);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
+}
+
+.subscribe-icon {
+  fill: var(--white);
+}
+
+
 /**
   |============================
   | Modal window
@@ -590,6 +664,7 @@ header .container {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
+  padding: 0 24px 24px;
   border-radius: 4px;
   background-color: var(--dairy);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -636,6 +711,33 @@ header .container {
 .backdrop .modal-btn:hover .modal-btn-ico,
 .backdrop .modal-btn:focus .modal-btn-ico {
   fill: var(--main-bkgrnd-color);
+}
+
+.modal-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-inputs {display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.modal strong {
+display: block;
+margin-top: 72px;
+margin-bottom: 16px;
+
+}
+
+.modal-input-text {
+}
+.modal-input-phone {
+}
+.modal-textarea {
+  resize: vertical;
+  max-height: 210px;
 }
 
 /* PORTFOLIO */
