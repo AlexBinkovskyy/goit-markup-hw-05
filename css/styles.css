@@ -684,8 +684,9 @@ header .container {
   background-color: var(--cornflower);
   padding: 0x;
   transition: background-color var(--transition-settings),
-    border var(--transition-settings);
-}
+    border var(--transition-settings),
+    fill: var(--transition-settings);
+  }
 
 .backdrop .modal-btn:hover,
 .backdrop .modal-btn:focus {

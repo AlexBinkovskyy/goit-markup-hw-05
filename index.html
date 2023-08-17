@@ -482,7 +482,6 @@
                 name="subscribe-email"
                 placeholder="E-mail"
                 autocomplete="on"
-                novalidate="off"
               />
               <button type="submit" class="button subscribe-button">
                 Subscribe
@@ -569,8 +568,16 @@
             </label>
           </div>
           <label class="policy">
-            <input class="modal-chkbox" type="checkbox" name="policy_agriment" id="checked" />
-            <p class="policy-text">I accept the terms and conditions of the <a class="policy-text-link" href="">Privacy Policy</a></p>
+            <input
+              class="modal-chkbox"
+              type="checkbox"
+              name="policy_agriment"
+              id="checked"
+            />
+            <p class="policy-text">
+              I accept the terms and conditions of the
+              <a class="policy-text-link" href="">Privacy Policy</a>
+            </p>
           </label>
           <button class="modal-submit" type="submit">Send</button>
         </form>
