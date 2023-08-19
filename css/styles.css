@@ -730,12 +730,12 @@ header .container {
 }
 
 .input-label {
+  display: block;
+  color: var(--lightslate, #8e8f99);
+  margin-bottom: 4px;
 }
 
 .input-label-text {
-  display: inline-block;
-  color: var(--lightslate, #8e8f99);
-  margin-bottom: 4px;
 }
 
 .input-field {
@@ -817,6 +817,7 @@ header .container {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color var(--transition-settings);
