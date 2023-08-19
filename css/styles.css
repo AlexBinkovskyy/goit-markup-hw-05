@@ -797,7 +797,10 @@ header .container {
   margin-bottom: 24px;
 }
 
-.modal-privacy-check {
+.policy:checked .modal-checkbox {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .policy {
@@ -816,21 +819,23 @@ header .container {
 }
 
 .policy-text-link {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   text-decoration-line: underline;
 }
 
 .modal-checkbox {
-  display: block;
+  /* pointer-events: none; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid var(--navyblue-modal);
+  fill: transparent;
   border-radius: 2px;
   margin-right: 8px;
-}
-
-.modal-checkbox-icon {
-  stroke: rgba(0, 0, 0, 0.08);
+  transition: background-color var(--transition-settings),
+    border var(--transition-settings), fill var(--transition-settings);
 }
 
 .modal-submit-btn {
