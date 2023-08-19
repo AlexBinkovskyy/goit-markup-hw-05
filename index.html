@@ -574,18 +574,19 @@
           </div>
 
           <!-- Check-BOX -->
-          <label class="policy" for="policy_agriment-check"
-            >I accept the terms and conditions of the
-            <a class="policy-text-link" href="">Privacy Policy</a></label
-          >
           <div class="policy-box">
             <input
-              class=""
+              class="modal-privacy-check visually-hidden"
               type="checkbox"
-              name="policy_agriment"
-              id="policy_agriment-check"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <span class="modal-checkbox"></span>
+            <label class="policy" for="user-privacy"
+              >I accept the terms and conditions of the
+              <a class="policy-text-link" href="">Privacy Policy</a
+              ><span class="modal-checkbox"></span
+            ></label>
           </div>
           <button class="modal-submit-btn" type="submit">Send</button>
         </form>

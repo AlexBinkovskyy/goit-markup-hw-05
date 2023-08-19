@@ -793,6 +793,21 @@ header .container {
   font-size: 12px;
 }
 
+.policy-box {
+  margin-bottom: 24px;
+}
+
+.modal-privacy-check {
+}
+
+.policy {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+}
+
 .policy-text {
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
