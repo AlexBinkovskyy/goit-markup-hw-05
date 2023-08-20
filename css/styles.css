@@ -797,7 +797,7 @@ header .container {
   margin-bottom: 24px;
 }
 
-.modal-privacy-check:checked + .modal-checkbox {
+.modal-privacy-check:checked + .policy.modal-checkbox {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
